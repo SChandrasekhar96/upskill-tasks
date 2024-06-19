@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  width: 50vw;
+  height: 50vh;
+}
+.image {
+  margin: 10% 25%;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 20px;
+  background: linear-gradient(
+    90deg,
+    rgb(2, 252, 56) 0%,
+    rgb(148, 246, 2) 35%,
+    rgb(204, 255, 0) 100%
+  );
+  border: none;
+  border-radius: 10px;
+}
