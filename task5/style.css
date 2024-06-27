@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  letter-spacing: 1px;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+.img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  background-color: #488cfc;
+}
+img {
+  width: 30vw;
+  border-radius: 20px;
+}
+.login-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  background-color: rgb(226, 242, 253);
+}
+input,
+button {
+  width: 100%;
+}
+form {
+  width: 30vw;
+}
+.login-div h1 {
+  font-size: 50px;
+  color: rgb(40, 40, 41);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.login-div h2 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #555454;
+}
+
+.login-div #email {
+  padding: 25px;
+  margin: 13px 0 30px 0;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0px 0px 3px 8px #d6ecf7;
+}
+.login-div #password {
+  padding: 25px;
+  margin: 13px 0 4px 0;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0px 0px 3px 8px #d6ecf7;
+}
+.login-div #fp {
+  margin-top: 0;
+  font-size: 15px;
+  text-align: right;
+}
+.login-div button {
+  padding: 25px;
+  margin: 30px 0 50px 0;
+  border-radius: 15px;
+  border: none;
+  background-color: #488cfc;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px 8px #d6ecf7;
+}
+.login-div #mem {
+  text-align: center;
+  color: #555454;
+  font-weight: 600;
+}
+
+.login-div a {
+  color: #488cfc;
+  text-decoration: none;
+}

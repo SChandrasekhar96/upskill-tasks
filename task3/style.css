@@ -2,18 +2,22 @@
   box-sizing: border-box;
 }
 img {
-  width: 50vw;
-  height: 50vh;
+  width: 40vw;
+  height: 40vh;
 }
 .image {
   margin: 10% 25%;
 }
+#btn {
+  margin-top: 2vw;
+}
 button {
-  width: 100%;
+  display: block;
+  width: 40vw;
+  height: 10vh;
   padding: 10px;
   font-size: 1.5rem;
   font-weight: 600;
-  margin-top: 20px;
   background: linear-gradient(
     90deg,
     rgb(2, 252, 56) 0%,

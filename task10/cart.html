@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d72c762128.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href=".\style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <img id="logo" src=".\images\logo.jpg" alt="logo.png" />
+      <nav>
+        <ul id="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">More</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="right">
+        <div id="search-div">
+          <label
+            ><i class="fa-solid fa-magnifying-glass"></i
+            ><input type="search" id="search" placeholder="Search"
+          /></label>
+        </div>
+        <div id="cart-div">
+          <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          <p>0</p>
+        </div>
+        <img
+          id="profile"
+          src=".\images\my-avatar.png"
+          alt="profile.png"
+        />
+      </div>
+      <div id="hamburger" tabindex="0">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <div id="menu-list">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">More</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </section>
+    <section id="cart-sec">
+      <div id="left-cart">
+        <h1>Shopping Cart</h1>
+        <div id="cart-products">
+          <table>
+            <thead>
+              <tr>
+                <td id="prod">Product</td>
+                <td>Quantity</td>
+                <td>Price</td>
+                <td></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Adidas Adi Power Vector 20</td>
+                <td><input type="number" value="1" /></td>
+                <td>10,550 /-</td>
+                <td>
+                  <a href="#"><i class="fa-solid fa-trash"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td>Adidas Adi Power Vector 21</td>
+                <td><input type="number" value="1" /></td>
+                <td>9,550 /-</td>
+                <td>
+                  <a href="#"><i class="fa-solid fa-trash"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td>Adidas Adi Power Vector 19 spl Edn</td>
+                <td><input type="number" value="1" /></td>
+                <td>11,550 /-</td>
+                <td>
+                  <a href="#"><i class="fa-solid fa-trash"></i></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div id="right-cart">
+        <h2>Order Summary</h2>
+        <div id="total-div">
+          <h2>Enter Coupon Code</h2>
+          <div id="coupon-div">
+            <input
+              id="coupon-code"
+              type="text"
+              placeholder="Enter coupon code"
+            />
+            <button id="apply-btn">Apply Coupon</button>
+          </div>
+          <div id="total-comp">
+            <p>Sub Total</p>
+            <p>₹ 30,600</p>
+          </div>
+          <div id="total-comp">
+            <p>Taxes (If Applicable)</p>
+            <p>₹ 400</p>
+          </div>
+          <div id="total-comp">
+            <p>Discount</p>
+            <p>₹ 0</p>
+          </div>
+          <div id="total">
+            <p>Total</p>
+            <p>₹ 31,000</p>
+          </div>
+        </div>
+      <div id="checkout-div">
+        <button id="checkout" onclick="window.location.href='payment.html'">Proceed to checkout</button>
+        <div id="pay-out">
+          <img src=".\images\secure-payment.png" />
+          <img id="img2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Razorpay_logo.webp/620px-Razorpay_logo.webp.png?20220522093348" />
+          <img src=".\images\protection.png" />
+        </div>
+      </div>
+    </section>
+    <a id="cont-shop" href="index.html">< Continue Shopping</a>
+  </body>
+</html>

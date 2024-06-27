@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d72c762128.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Check Out</title>
+    <link rel="stylesheet" href=".\style.css" />
+  </head>
+  <body>
+    <section id="cart-sec">
+      <div id="left-part">
+        <h3>Checkout</h3>
+        <h2>Contact Details</h2>
+        <p>E-Mail ID</p>
+        <input type="text" id="email" placeholder="Enter Email Address" />
+        <h2>Payment</h2>
+        <div id="pay-det">
+          <div id="pay-opt">
+            <div id="pay-opt-comp">
+              <img src=".\images\card.png" width="30" height="30" />
+              <p>Card</p>
+            </div>
+            <div id="pay-opt-comp">
+              <img src="./images/crypto.png" width="30" height="30" />
+              <p>Crypto</p>
+            </div>
+            <div id="pay-opt-comp">
+              <img src="./images/bank.png" width="30" height="30" />
+              <p>Bank</p>
+            </div>
+            <div id="pay-opt-icon">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </div>
+          <p>Card Number</p>
+          <input
+            type="text"
+            id="card-num"
+            placeholder="Enter Card Number"
+            required
+          />
+          <div id="date-cvv">
+            <div>
+              <p>Expiry Date</p>
+              <input type="date" id="expiry-date" required />
+            </div>
+            <div>
+              <p>CVV</p>
+              <input type="text" id="cvv" placeholder="Enter CVV" required />
+            </div>
+          </div>
+          <div id="address">
+            <div>
+              <p>Country</p>
+              <input
+                type="text"
+                id="country"
+                placeholder="Enter Country"
+                required
+              />
+            </div>
+            <div>
+              <p>ZIP Code</p>
+              <input
+                type="text"
+                id="zip"
+                placeholder="Enter ZIP Code"
+                required
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="right-cart">
+        <h2>Order Summary</h2>
+        <div id="total-div">
+          <h2>Enter Coupon Code</h2>
+          <div id="coupon-div">
+            <input
+              id="coupon-code"
+              type="text"
+              placeholder="Enter coupon code"
+            />
+            <button id="apply-btn">Apply Coupon</button>
+          </div>
+          <div id="total-comp">
+            <p>Sub Total</p>
+            <p>₹ 30,600</p>
+          </div>
+          <div id="total-comp">
+            <p>Taxes (If Applicable)</p>
+            <p>₹ 400</p>
+          </div>
+          <div id="total-comp">
+            <p>Discount</p>
+            <p>₹ 0</p>
+          </div>
+          <div id="total">
+            <p>Total</p>
+            <p>₹ 31,000</p>
+          </div>
+        </div>
+        <div id="checkout-div">
+          <button id="checkout">Pay ₹ 31,000 /-</button>
+          <div id="pay-out">
+            <img src=".\images\secure-payment.png" />
+            <img
+              id="img2"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Razorpay_logo.webp/620px-Razorpay_logo.webp.png?20220522093348"
+            />
+            <img src=".\images\protection.png" />
+          </div>
+        </div>
+        <p>Cancel Payment <a href="cart.html">Go Back</a></p>
+      </div>
+    </section>
+  </body>
+</html>
