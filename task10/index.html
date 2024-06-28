@@ -1,102 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/d72c762128.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Thala 7 (Task 10)</title>
-    <link rel="stylesheet" href=".\style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
   </head>
   <body>
-    <section id="header">
-      <img id="logo" src=".\images\logo.jpg" alt="logo.png" />
-      <nav>
-        <ul id="nav-list">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Brands</a></li>
-          <li><a href="#">More</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <div id="right">
-        <div id="search-div">
-          <label
-            ><i class="fa-solid fa-magnifying-glass"></i
-            ><input type="search" id="search" placeholder="Search"
-          /></label>
-        </div>
-        <div id="cart-div">
-          <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
-          <p>0</p>
-        </div>
-        <img id="profile" src=".\images\my-avatar.png" alt="profile.png" />
-      </div>
-      <div id="hamburger" tabindex="0">
-        <i class="fas fa-bars"></i>
-      </div>
-
-      <div id="menu-list">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Brands</a></li>
-          <li><a href="#">More</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </section>
-    <section id="hero">
-      <div id="right-div">
-        <img
-          src="https://cdn.logojoy.com/wp-content/uploads/20231013154327/Adidas-logo-1991-1.png"
-        />
-        <h1>Adi Power Vector 20</h1>
-        <h2>Cricket Spikes</h2>
-        <p>
-          The boot is built and developed for the extreme forces involved in
-          bowling. The revolutionary detachable strap helps with cushioning and
-          stability to the performance and teel of the boot whether you howl
-          spin medium or fast pace this boot is made for you
-        </p>
-        <button onclick="window.location.href='product.html'">Shop Now</button>
-      </div>
-      <div id="left-div">
-        <img src=".\images\adidas.jpg" />
-      </div>
-    </section>
-    <section id="features">
-      <div id="feature">
-        <img src=".\images\reviews.png" />
-        <div>
-          <h1>2K +</h1>
-          <h2>Reviews</h2>
-        </div>
-      </div>
-      <div id="feature">
-        <img src=".\images\costumer.png" />
-        <div>
-          <h1>30K +</h1>
-          <h2>Customers</h2>
-        </div>
-      </div>
-      <div id="feature">
-        <img src=".\images\high-quality.png" />
-        <div>
-          <h1>High</h1>
-          <h2>Quality</h2>
-        </div>
-      </div>
-      <div id="feature">
-        <img src=".\images\ratings.png" />
-        <div>
-          <h1>4.5 / 5</h1>
-          <h2>Ratings</h2>
-        </div>
-      </div>
-    </section>
+    <h2>Task10</h2>
+    <h1>Compound Interest</h1>
+    <p>Pricipal Amount(P): 1,00,000</p>
+    <p>Rate of Interest(r):5%</p>
+    <p>Time Period(t): 5 years</p>
+    <p>Number of times compounding per year(n): 12</p>
+    <p>Find Amount ?</p>
+    <script>
+      let p = 100000;
+      let r = 0.5;
+      let t = 5;
+      let n = 12;
+      let amount = p * (1 + r / n) ** (n * t);
+      console.log("The Amount to be paid is :", amount, "Rupees");
+    </script>
   </body>
 </html>
