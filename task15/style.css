@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  background-color: rgb(214, 214, 214);
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40%;
+  width: 70%;
+  margin: 0px auto;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  margin: 15px;
+  border: 2px solid black;
+}
+#input-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+#input {
+  padding: 10px;
+  font-size: 20px;
+  width: 300px;
+}
+
+#button {
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+}
